@@ -1,0 +1,17 @@
+﻿target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.DS_Store
+Thumbs.db
+*.log

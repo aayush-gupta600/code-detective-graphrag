@@ -1,0 +1,14 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: code-detective-backend
+  neo4j:
+    uri: neo4j+s://4523975e.databases.neo4j.io:7687
+    authentication:
+      username: 4523975e
+      password: ${NEO4J_PASSWORD:aayush@123}
+
+ai:
+  python-url: ${PYTHON_AI_URL:http://localhost:8000}
